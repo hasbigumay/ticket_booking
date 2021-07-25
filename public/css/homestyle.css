@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+body {
+    background: -webkit-linear-gradient(bottom, #040e14, #910e0e);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #ffffff;
+    height:65px;
+    width:100%;
+    top: 0;
+    z-index: 10;
+    background-color: #13212b;
+    padding:5px 0 10px 0;
+    position: fixed;
+    
+}
+
+
+.header-left {
+  float: left;
+}
+
+.header-left img{
+  height: 50px;
+  width: 50px;
+  
+}
+
+.header-right {
+
+  transition: all 0.5s;
+  
+}
+.menu {
+    width: 1000px;
+    margin: 5px 30px;
+    padding:30px 50px;
+    position: fixed;
+    
+}
+
+nav.menu ul#utama {
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 10px 200px;
+    width: 650px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    background: #201717;
+    
+}
+
+nav.menu ul li {
+    text-align: center;
+    background-position: center;
+    margin: 1px;
+    float:left ;
+    
+}
+
+nav.menu ul a {
+    padding: 15px 15px;
+    display: block;
+    font-weight: 100px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav.menu ul a:hover {
+    background: #703232;
+    /* weight: 250px; */
+}
+
+.top{
+    padding: 220px 0px;
+    background-image: url(https://siasatpartikelir.com/wp-content/uploads/2020/09/header-websitept.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top h1{
+    
+
+}
+
+.top p{
+
+}
+
+.daftar{
+   
+    margin-top: 30px;
+   
+}
+
+.daftar h2{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:#fff;
+}
+
+.daftar-konser{
+    float: left;
+    margin: 0px 30px;
+  
+}
+.daftar-konser img{
+    height:400px;
+    width:250px;
+}
+.daftar-konser p{
+    font-size: 24px;
+     margin-top: 30px;
+     color:#fff;
+}
+
+
+.card-content p{
+    color:#ffffff;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #f0f3f5;
+    color: rgb(2, 2, 2);
+    margin: 540px 0px;
+    height: 10px;
+    padding: 50px;
+
+  }
+
+  .footer p{
+      text-align: center;
+  }
+
+  .lovya p{
+      color: #ffffff;
+      text-align: center;
+      font-size: 24px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .signup {
+    background-color: white;
+    color: black;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+   
+  .btn-wrapper {
+    text-align: center;
+    padding: 20px 40px;
+    margin-left:20px;
+  }
+  
+  .btn-wrapper p {
+    color: #faafaf;
+  }
+
+  .btn-wrapper h1 {
+    font-size: 45px;
+    color: #ffffff;
+    
+  }
+
+  .background{
+    padding: 300px 100px;
+    margin: 10px 20px;
+    background-image: url(https://siasatpartikelir.com/wp-content/uploads/2020/09/header-websitept.jpg);
+    background-size: cover;
+    color: white;
+    text-align: justify;
+  }
+ 
+  .aboutus{
+    padding: 220px 0px;
+    background-image: url(https://siasatpartikelir.com/wp-content/uploads/2020/09/header-websitept.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height:60%;
+}
+
+.card {
+  background: #8f1e1ea2;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 400px;
+  margin: 5rem 1rem 8.1rem 250px;
+  width: 690px;
+}
+
+.kotak {
+  background: #771d1dd3;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 200px;
+  margin: 30px 1rem 8.1rem 330px;
+  width: 690px;
+  padding:50px 0px;
+}
+

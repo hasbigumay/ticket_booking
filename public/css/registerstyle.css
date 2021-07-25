@@ -1,0 +1,110 @@
+body {
+    background: -webkit-linear-gradient(bottom, #290606, #a50a0a);
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 12pt;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    background: -webkit-linear-gradient(right, #5c1917, #0e1c29);
+    height: 1px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+}
+
+.button-login {
+    background-color: #548abd;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    margin: 8px 2px;
+    cursor: pointer;
+    width: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button-regist {
+    background-color: #bd5454;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    margin: 8px 2px;
+    cursor: pointer;
+    width: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.form-content {
+    background: #c7c4fb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 650px;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+
+#card-title {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    text-align: center;
+}

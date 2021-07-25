@@ -1,0 +1,56 @@
+
+.event {
+    box-shadow: 0 25px 20px 0 rgba(22, 18, 18, 0.507);
+    background-color: rgba(228, 203, 182, 0.897);
+    transition: 0.3s;
+    width: 300px;
+    height: 250px;
+    margin-left: 50px;
+    color: white;
+    margin-top:10px;
+    padding-top:10px;
+    text-align:center;
+}
+.event h4{
+    color:black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.event p{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+}
+ .event h3{
+    color:black;
+    text-align: center;
+    font-size: 24px; 
+ }
+
+ul#utama{
+    list-style: none;
+    float:left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+.list-event{
+    padding-top:200px;
+}
+
+.list-event h1{
+    color:#ffffff;
+    text-align: center;
+}
+
+list-event li{
+    padding-left:30px;
+}
